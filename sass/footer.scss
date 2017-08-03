@@ -19,7 +19,7 @@ $dark-red: darken($red, 10%);
 $light-red: lighten($red, 25%);
 
 #footer {
-	margin-top: 15vh;
+	margin-top: 10vh;
 	font-family: 'Archivo Narrow', sans-serif;
 
 	.lists {
@@ -27,6 +27,7 @@ $light-red: lighten($red, 25%);
 		justify-content: space-around;
 
 		div {		
+			margin-top: 20px;
 		
 			h3 {
 				font-size: 21px;

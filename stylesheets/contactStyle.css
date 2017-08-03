@@ -8876,7 +8876,7 @@ body {
 
 /* line 21, ../sass/footer.scss */
 #footer {
-  margin-top: 15vh;
+  margin-top: 10vh;
   font-family: 'Archivo Narrow', sans-serif;
 }
 /* line 25, ../sass/footer.scss */
@@ -8884,60 +8884,88 @@ body {
   display: flex;
   justify-content: space-around;
 }
-/* line 31, ../sass/footer.scss */
+/* line 29, ../sass/footer.scss */
+#footer .lists div {
+  margin-top: 20px;
+}
+/* line 32, ../sass/footer.scss */
 #footer .lists div h3 {
   font-size: 21px;
   font-family: 'Titillium Web', sans-serif;
   color: #ff8080;
 }
-/* line 37, ../sass/footer.scss */
+/* line 38, ../sass/footer.scss */
 #footer .lists div ul {
   margin-top: 10px;
   padding-left: 0px;
 }
-/* line 42, ../sass/footer.scss */
+/* line 43, ../sass/footer.scss */
 #footer .lists div li {
   list-style-type: none;
 }
-/* line 46, ../sass/footer.scss */
+/* line 47, ../sass/footer.scss */
 #footer .lists div a {
   text-decoration: none;
   font-size: 16px;
 }
-/* line 50, ../sass/footer.scss */
+/* line 51, ../sass/footer.scss */
 #footer .lists div a:hover {
   color: #59a5d8;
 }
-/* line 58, ../sass/footer.scss */
+/* line 59, ../sass/footer.scss */
 #footer .social-media {
   margin: 25px 0;
   display: flex;
   justify-content: space-around;
 }
-/* line 63, ../sass/footer.scss */
+/* line 64, ../sass/footer.scss */
 #footer .social-media a {
   color: #000000;
   text-decoration: none;
 }
-/* line 67, ../sass/footer.scss */
+/* line 68, ../sass/footer.scss */
 #footer .social-media a:nth-child(1) {
   color: #2b80b9;
 }
-/* line 71, ../sass/footer.scss */
+/* line 72, ../sass/footer.scss */
 #footer .social-media a:nth-child(2) {
   color: #59a5d8;
 }
-/* line 75, ../sass/footer.scss */
+/* line 76, ../sass/footer.scss */
 #footer .social-media a:nth-child(3) {
   color: #ff8080;
 }
-/* line 79, ../sass/footer.scss */
+/* line 80, ../sass/footer.scss */
 #footer .social-media a:nth-child(4) {
   color: #cc0000;
 }
-/* line 85, ../sass/footer.scss */
+/* line 86, ../sass/footer.scss */
 #footer p {
   font-size: 15px;
   margin-top: 20px;
   text-align: center;
+}
+
+/* line 27, ../sass/contactStyle.scss */
+#content h1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: #ff8080;
+}
+/* line 34, ../sass/contactStyle.scss */
+#content #contact-hr {
+  border: 2px solid #6eb0dd;
+  border-radius: 15px;
+  width: 35%;
+  margin: 10px auto;
+}
+/* line 41, ../sass/contactStyle.scss */
+#content .map-container {
+  margin: 50px auto;
+  width: 92%;
+}
+/* line 45, ../sass/contactStyle.scss */
+#content .map-container iframe {
+  margin-top: 30px;
 }

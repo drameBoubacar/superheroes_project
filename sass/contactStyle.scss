@@ -21,3 +21,29 @@ $black: #000000;
 $red: #ff0000;
 $dark-red: darken($red, 10%);
 $light-red: lighten($red, 25%);
+
+#content {
+
+	h1 {
+		font-family: 'Titillium Web', sans-serif;
+		font-weight: 700;
+		text-align: center;
+		color: $light-red;
+	}
+
+	#contact-hr {
+		border: 2px solid $light-blue;
+		border-radius: 15px;
+		width: 35%;
+		margin: 10px auto;
+	}
+
+	.map-container {
+		margin: 50px auto;
+		width: 92%;
+		
+		iframe {
+			margin-top: 30px;
+		}
+	}
+}

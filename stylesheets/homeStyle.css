@@ -8788,115 +8788,156 @@ button.close {
     display: none !important;
   }
 }
-/* line 21, ../sass/navbar.scss */
+/* line 22, ../sass/navbar.scss */
 body {
   padding-top: 40px;
 }
 
-/* line 25, ../sass/navbar.scss */
+/* line 26, ../sass/navbar.scss */
 .navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
   background-color: #FFFFFF;
   border: none;
   font-family: 'Titillium Web', sans-serif;
   font-weight: 700;
 }
-/* line 35, ../sass/navbar.scss */
+/* line 32, ../sass/navbar.scss */
 .navbar .navbar-collapse {
-  position: relative;
-  background-color: #000000;
-  z-index: 20;
+  background-color: #FFFFFF;
 }
-/* line 41, ../sass/navbar.scss */
+/* line 36, ../sass/navbar.scss */
 .navbar .navbar-toggle {
   background-color: #2b80b9;
   transition: background-color 0.5s;
 }
-/* line 45, ../sass/navbar.scss */
+/* line 40, ../sass/navbar.scss */
 .navbar .navbar-toggle:hover {
   background-color: #6eb0dd;
 }
-/* line 49, ../sass/navbar.scss */
+/* line 44, ../sass/navbar.scss */
 .navbar .navbar-toggle:focus {
   background-color: #2b80b9;
 }
-/* line 53, ../sass/navbar.scss */
+/* line 48, ../sass/navbar.scss */
 .navbar .navbar-toggle .icon-bar {
   background-color: #FFFFFF;
 }
-/* line 58, ../sass/navbar.scss */
+/* line 53, ../sass/navbar.scss */
 .navbar .navbar-brand {
   padding: 0;
   margin: 0 30px;
 }
-/* line 62, ../sass/navbar.scss */
+/* line 57, ../sass/navbar.scss */
 .navbar .navbar-brand img {
   width: 50px;
   height: 50px;
 }
-/* line 68, ../sass/navbar.scss */
+/* line 63, ../sass/navbar.scss */
 .navbar .navbar-nav {
-  width: 86.5%;
+  width: 84.5%;
+  margin: auto;
 }
-/* line 71, ../sass/navbar.scss */
+/* line 67, ../sass/navbar.scss */
 .navbar .navbar-nav > .active > a {
   background-color: #2b80b9;
   color: #FFFFFF;
   transition: background-color 0.3s, color 0.3s;
 }
-/* line 77, ../sass/navbar.scss */
+/* line 73, ../sass/navbar.scss */
 .navbar .navbar-nav > .active > a:hover {
   background-color: #2b80b9;
   color: #FFFFFF;
 }
-/* line 83, ../sass/navbar.scss */
+/* line 79, ../sass/navbar.scss */
 .navbar .navbar-nav > li {
   width: 25%;
   text-align: center;
+  margin: auto;
 }
-/* line 87, ../sass/navbar.scss */
+/* line 84, ../sass/navbar.scss */
 .navbar .navbar-nav > li > a {
   transition: background-color 0.3s, color 0.3s;
   color: #2b80b9;
 }
-/* line 91, ../sass/navbar.scss */
+/* line 88, ../sass/navbar.scss */
 .navbar .navbar-nav > li > a:hover {
   background-color: #6eb0dd;
   color: #FFFFFF;
 }
 @media (max-width: 750px) {
-  /* line 83, ../sass/navbar.scss */
+  /* line 79, ../sass/navbar.scss */
   .navbar .navbar-nav > li {
     width: 80%;
   }
 }
-/* line 103, ../sass/navbar.scss */
+/* line 100, ../sass/navbar.scss */
 .navbar > .container-fluid .navbar-brand {
   margin: 0 30px;
 }
 
-/* line 20, ../sass/footer.scss */
+/* line 21, ../sass/footer.scss */
 #footer {
   margin-top: 15vh;
-  z-index: 10;
+  font-family: 'Archivo Narrow', sans-serif;
 }
-/* line 24, ../sass/footer.scss */
+/* line 25, ../sass/footer.scss */
 #footer .lists {
   display: flex;
   justify-content: space-around;
 }
-/* line 28, ../sass/footer.scss */
-#footer .lists div {
-  color: white;
+/* line 31, ../sass/footer.scss */
+#footer .lists div h3 {
+  font-size: 21px;
+  font-family: 'Titillium Web', sans-serif;
+  color: #ff8080;
 }
-/* line 35, ../sass/footer.scss */
+/* line 37, ../sass/footer.scss */
 #footer .lists div ul {
-  padding-left: 10px;
+  margin-top: 10px;
+  padding-left: 0px;
 }
-/* line 39, ../sass/footer.scss */
+/* line 42, ../sass/footer.scss */
 #footer .lists div li {
   list-style-type: none;
+}
+/* line 46, ../sass/footer.scss */
+#footer .lists div a {
+  text-decoration: none;
+  font-size: 16px;
+}
+/* line 50, ../sass/footer.scss */
+#footer .lists div a:hover {
+  color: #59a5d8;
+}
+/* line 58, ../sass/footer.scss */
+#footer .social-media {
+  margin: 25px 0;
+  display: flex;
+  justify-content: space-around;
+}
+/* line 63, ../sass/footer.scss */
+#footer .social-media a {
+  color: #000000;
+  text-decoration: none;
+}
+/* line 67, ../sass/footer.scss */
+#footer .social-media a:nth-child(1) {
+  color: #2b80b9;
+}
+/* line 71, ../sass/footer.scss */
+#footer .social-media a:nth-child(2) {
+  color: #59a5d8;
+}
+/* line 75, ../sass/footer.scss */
+#footer .social-media a:nth-child(3) {
+  color: #ff8080;
+}
+/* line 79, ../sass/footer.scss */
+#footer .social-media a:nth-child(4) {
+  color: #cc0000;
+}
+/* line 85, ../sass/footer.scss */
+#footer p {
+  font-size: 15px;
+  margin-top: 20px;
+  text-align: center;
 }

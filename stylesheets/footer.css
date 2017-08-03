@@ -8788,25 +8788,70 @@ button.close {
     display: none !important;
   }
 }
-/* line 20, ../sass/footer.scss */
+/* line 21, ../sass/footer.scss */
 #footer {
   margin-top: 15vh;
-  z-index: 10;
+  font-family: 'Archivo Narrow', sans-serif;
 }
-/* line 24, ../sass/footer.scss */
+/* line 25, ../sass/footer.scss */
 #footer .lists {
   display: flex;
   justify-content: space-around;
 }
-/* line 28, ../sass/footer.scss */
-#footer .lists div {
-  color: #FFFFFF;
+/* line 31, ../sass/footer.scss */
+#footer .lists div h3 {
+  font-size: 21px;
+  font-family: 'Titillium Web', sans-serif;
+  color: #ff8080;
 }
-/* line 35, ../sass/footer.scss */
+/* line 37, ../sass/footer.scss */
 #footer .lists div ul {
-  padding-left: 10px;
+  margin-top: 10px;
+  padding-left: 0px;
 }
-/* line 39, ../sass/footer.scss */
+/* line 42, ../sass/footer.scss */
 #footer .lists div li {
   list-style-type: none;
+}
+/* line 46, ../sass/footer.scss */
+#footer .lists div a {
+  text-decoration: none;
+  font-size: 16px;
+}
+/* line 50, ../sass/footer.scss */
+#footer .lists div a:hover {
+  color: #59a5d8;
+}
+/* line 58, ../sass/footer.scss */
+#footer .social-media {
+  margin: 25px 0;
+  display: flex;
+  justify-content: space-around;
+}
+/* line 63, ../sass/footer.scss */
+#footer .social-media a {
+  color: #000000;
+  text-decoration: none;
+}
+/* line 67, ../sass/footer.scss */
+#footer .social-media a:nth-child(1) {
+  color: #2b80b9;
+}
+/* line 71, ../sass/footer.scss */
+#footer .social-media a:nth-child(2) {
+  color: #59a5d8;
+}
+/* line 75, ../sass/footer.scss */
+#footer .social-media a:nth-child(3) {
+  color: #ff8080;
+}
+/* line 79, ../sass/footer.scss */
+#footer .social-media a:nth-child(4) {
+  color: #cc0000;
+}
+/* line 85, ../sass/footer.scss */
+#footer p {
+  font-size: 15px;
+  margin-top: 20px;
+  text-align: center;
 }

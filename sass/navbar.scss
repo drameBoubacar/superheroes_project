@@ -16,6 +16,7 @@ $black: #000000;
 
 $red: #ff0000;
 $dark-red: darken($red, 10%);
+$light-red: lighten($red, 25%);
 
 
 body {
@@ -23,19 +24,13 @@ body {
 }
 
 .navbar {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
 	background-color: $white;
 	border: none;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 700;
 
     .navbar-collapse {
-    	position: relative;
-		background-color: $black;
-		z-index: 20;
+		background-color: $white;
     }
 
     .navbar-toggle {
@@ -66,8 +61,9 @@ body {
 	}
 
 	.navbar-nav {
-		width: 86.5%;
-		
+		width: 84.5%;
+		margin: auto;
+
 		> .active > a {
 			background-color: $dark-blue;
 			color: $white;
@@ -83,6 +79,7 @@ body {
 		> li {
 			width: 25%;
 			text-align: center;
+			margin: auto;
 
 			> a {
 				transition: background-color 0.3s, color 0.3s;

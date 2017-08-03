@@ -8,44 +8,98 @@
 @import "bootstrap";
 
 $blue: #59a5d8;
-$light-blue: #84d2f6;
-$dark-blue: #386fa4;
+$light-blue: lighten($blue, 5%);
+$dark-blue: darken($blue, 15%);
 
 $white: #FFFFFF;
 $black: #000000;
 
 $red: #ff0000;
-$dark-red: #d60000;
+$dark-red: darken($red, 10%);
 
-.navbar-brand {
-	padding: 0;
-	margin: 0 30px;
 
-	img {
-		width: 50px;
-		height: 50px;
-	}
+body {
+	padding-top: 40px;
 }
 
 .navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
 	background-color: $white;
+	border: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+
+    .navbar-collapse {
+    	position: relative;
+		background-color: $black;
+		z-index: 20;
+    }
+
+    .navbar-toggle {
+    	background-color: $dark-blue;
+    	transition: background-color 0.5s;
+
+    	&:hover {
+			background-color: $light-blue;
+		}
+
+		&:focus {
+			background-color: $dark-blue;
+		}
+
+    	.icon-bar {
+    		background-color: $white;
+    	}
+    }
+
+	.navbar-brand {
+		padding: 0;
+		margin: 0 30px;
+
+		img {
+			width: 50px;
+			height: 50px;
+		}
+	}
 
 	.navbar-nav {
 		width: 86.5%;
 		
 		> .active > a {
 			background-color: $dark-blue;
-			color: white;
+			color: $white;
+
+			transition: background-color 0.3s, color 0.3s;
+
+			&:hover {
+				background-color: $dark-blue;
+				color: $white;
+			}
 		}
 
 		> li {
 			width: 25%;
 			text-align: center;
+
+			> a {
+				transition: background-color 0.3s, color 0.3s;
+				color: $dark-blue;
+
+				&:hover {
+				background-color: $light-blue;
+				color: $white;
+				}
+			}
+			
 			@media (max-width: 750px) {
 				width: 80%;
 			};
 		}
 	}
+
 	> .container-fluid .navbar-brand {
 		margin: 0 30px;
 	}

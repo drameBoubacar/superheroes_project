@@ -8788,3 +8788,25 @@ button.close {
     display: none !important;
   }
 }
+/* line 20, ../sass/footer.scss */
+#footer {
+  margin-top: 15vh;
+  z-index: 10;
+}
+/* line 24, ../sass/footer.scss */
+#footer .lists {
+  display: flex;
+  justify-content: space-around;
+}
+/* line 28, ../sass/footer.scss */
+#footer .lists div {
+  color: #FFFFFF;
+}
+/* line 35, ../sass/footer.scss */
+#footer .lists div ul {
+  padding-left: 10px;
+}
+/* line 39, ../sass/footer.scss */
+#footer .lists div li {
+  list-style-type: none;
+}

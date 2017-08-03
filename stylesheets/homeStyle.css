@@ -8788,42 +8788,115 @@ button.close {
     display: none !important;
   }
 }
-/* line 20, ../sass/navbar.scss */
-.navbar-brand {
+/* line 21, ../sass/navbar.scss */
+body {
+  padding-top: 40px;
+}
+
+/* line 25, ../sass/navbar.scss */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #FFFFFF;
+  border: none;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+}
+/* line 35, ../sass/navbar.scss */
+.navbar .navbar-collapse {
+  position: relative;
+  background-color: #000000;
+  z-index: 20;
+}
+/* line 41, ../sass/navbar.scss */
+.navbar .navbar-toggle {
+  background-color: #2b80b9;
+  transition: background-color 0.5s;
+}
+/* line 45, ../sass/navbar.scss */
+.navbar .navbar-toggle:hover {
+  background-color: #6eb0dd;
+}
+/* line 49, ../sass/navbar.scss */
+.navbar .navbar-toggle:focus {
+  background-color: #2b80b9;
+}
+/* line 53, ../sass/navbar.scss */
+.navbar .navbar-toggle .icon-bar {
+  background-color: #FFFFFF;
+}
+/* line 58, ../sass/navbar.scss */
+.navbar .navbar-brand {
   padding: 0;
   margin: 0 30px;
 }
-/* line 24, ../sass/navbar.scss */
-.navbar-brand img {
+/* line 62, ../sass/navbar.scss */
+.navbar .navbar-brand img {
   width: 50px;
   height: 50px;
 }
-
-/* line 30, ../sass/navbar.scss */
-.navbar {
-  background-color: #FFFFFF;
-}
-/* line 33, ../sass/navbar.scss */
+/* line 68, ../sass/navbar.scss */
 .navbar .navbar-nav {
   width: 86.5%;
 }
-/* line 36, ../sass/navbar.scss */
+/* line 71, ../sass/navbar.scss */
 .navbar .navbar-nav > .active > a {
-  background-color: #386fa4;
-  color: white;
+  background-color: #2b80b9;
+  color: #FFFFFF;
+  transition: background-color 0.3s, color 0.3s;
 }
-/* line 41, ../sass/navbar.scss */
+/* line 77, ../sass/navbar.scss */
+.navbar .navbar-nav > .active > a:hover {
+  background-color: #2b80b9;
+  color: #FFFFFF;
+}
+/* line 83, ../sass/navbar.scss */
 .navbar .navbar-nav > li {
   width: 25%;
   text-align: center;
 }
+/* line 87, ../sass/navbar.scss */
+.navbar .navbar-nav > li > a {
+  transition: background-color 0.3s, color 0.3s;
+  color: #2b80b9;
+}
+/* line 91, ../sass/navbar.scss */
+.navbar .navbar-nav > li > a:hover {
+  background-color: #6eb0dd;
+  color: #FFFFFF;
+}
 @media (max-width: 750px) {
-  /* line 41, ../sass/navbar.scss */
+  /* line 83, ../sass/navbar.scss */
   .navbar .navbar-nav > li {
     width: 80%;
   }
 }
-/* line 49, ../sass/navbar.scss */
+/* line 103, ../sass/navbar.scss */
 .navbar > .container-fluid .navbar-brand {
   margin: 0 30px;
+}
+
+/* line 20, ../sass/footer.scss */
+#footer {
+  margin-top: 15vh;
+  z-index: 10;
+}
+/* line 24, ../sass/footer.scss */
+#footer .lists {
+  display: flex;
+  justify-content: space-around;
+}
+/* line 28, ../sass/footer.scss */
+#footer .lists div {
+  color: white;
+}
+/* line 35, ../sass/footer.scss */
+#footer .lists div ul {
+  padding-left: 10px;
+}
+/* line 39, ../sass/footer.scss */
+#footer .lists div li {
+  list-style-type: none;
 }

@@ -8788,23 +8788,13 @@ button.close {
     display: none !important;
   }
 }
-/* line 23, ../sass/academieStyle.scss */
+/* line 24, ../sass/academieStyle.scss */
 body {
   padding: 0;
 }
 
-/* line 26, ../sass/academieStyle.scss */
-.school {
-  padding: 0;
-  height: 100vh;
-  width: 100%;
-  background-image: url("../images/school.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-}
-/* line 34, ../sass/academieStyle.scss */
-.school h2 {
-  text-align: left;
+/* line 27, ../sass/academieStyle.scss */
+h2 {
   font-size: 30px;
   font-weight: bolder;
   text-transform: uppercase;
@@ -8812,19 +8802,29 @@ body {
   color: #59a5d8;
 }
 
+/* line 35, ../sass/academieStyle.scss */
+.school {
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  background-image: url("../images/school.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 /* line 43, ../sass/academieStyle.scss */
 .line-story {
   padding: 2px 0;
   background-color: #ff0000;
-  width: 17%;
+  width: 16%;
   margin-left: 0;
 }
 
 /* line 49, ../sass/academieStyle.scss */
-.line-projects {
+.line-program {
   padding: 2px 0;
   background-color: #ff0000;
-  width: 12%;
+  width: 18%;
   margin-right: 0;
 }
 
@@ -8860,4 +8860,27 @@ body {
   line-height: 26px;
   text-align: justify;
   font-size: 20px;
+  margin-bottom: 30px;
+}
+
+/* line 82, ../sass/academieStyle.scss */
+.col-marg {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+  /* line 88, ../sass/academieStyle.scss */
+  .text-right {
+    text-align: center;
+  }
+
+  /* line 91, ../sass/academieStyle.scss */
+  h2 {
+    text-align: center;
+  }
+
+  /* line 94, ../sass/academieStyle.scss */
+  hr {
+    display: none;
+  }
 }

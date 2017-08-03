@@ -20,8 +20,17 @@ $black: #000000;
 $red: #ff0000;
 $dark-red: darken($red, 10%);
 
+
 body{
-padding: 0;
+  padding: 0;
+}
+h2{
+  // text-align: left;
+  font-size: 30px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin-top: 50px;
+  color: $blue;
 }
 .school{
   padding: 0;
@@ -29,27 +38,18 @@ padding: 0;
   width: 100%;
   background-image: url('../images/school.jpg');
   background-size: cover;
-  background-attachment: fixed;
-
-h2{
-  text-align: left;
-  font-size: 30px;
-  font-weight: bolder;
-  text-transform: uppercase;
-  margin-top: 50px;
-  color: $blue;
-}
+  background-position: center;
 }
 .line-story{
   padding:2px 0;
   background-color:$red;
-  width: 17%;
+  width: 16%;
   margin-left: 0;
 }
-.line-projects{
+.line-program{
   padding:2px 0;
   background-color:$red;
-  width: 12%;
+  width: 18%;
   margin-right: 0;
 }
 .line-missions{
@@ -76,5 +76,22 @@ h2{
     line-height: 26px;
     text-align: justify;
     font-size: 20px;
+    margin-bottom: 30px;
+  }
+}
+.col-marg{
+  margin-bottom: 50px;
+}
+
+// Media queries
+@media (max-width: 768px) {
+  .text-right {
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+  }
+  hr{
+    display: none;
   }
 }

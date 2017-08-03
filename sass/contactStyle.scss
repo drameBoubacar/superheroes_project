@@ -24,7 +24,7 @@ $light-red: lighten($red, 25%);
 
 #content {
 
-	h1 {
+	h1, #contact-us {
 		font-family: 'Titillium Web', sans-serif;
 		font-weight: 700;
 		text-align: center;
@@ -44,6 +44,37 @@ $light-red: lighten($red, 25%);
 		
 		iframe {
 			margin-top: 30px;
+		}
+	}
+
+	.formudresse {
+		width: 95%;
+		margin: auto;
+
+		#form-sub {
+			display: block;
+			margin: auto;
+			padding: 10 30px;
+		}
+
+		.form-control {
+			width: 75%;
+			margin: auto;
+			text-align: center;
+		}
+
+		form {
+			margin-top: 20px;
+
+			p {
+				display: block;
+				font-family: 'Titillium Web', sans-serif;
+				font-size: 18px;
+				margin-top: 25px;
+				font-weight: 700;
+				color: $light-blue;
+				text-align: center;
+			}
 		}
 	}
 }

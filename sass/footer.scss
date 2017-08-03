@@ -20,6 +20,7 @@ $light-red: lighten($red, 25%);
 
 #footer {
 	margin-top: 10vh;
+	margin-bottom: 5vh;
 	font-family: 'Archivo Narrow', sans-serif;
 
 	.lists {
@@ -60,6 +61,7 @@ $light-red: lighten($red, 25%);
 		margin: 25px 0;
 		display: flex;
 		justify-content: space-around;
+		
 
 		a {
 			color: $black;

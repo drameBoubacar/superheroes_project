@@ -8830,46 +8830,47 @@ body {
 .navbar .navbar-brand img {
   width: 50px;
   height: 50px;
+  margin: 1.5px 0px;
 }
-/* line 63, ../sass/navbar.scss */
+/* line 64, ../sass/navbar.scss */
 .navbar .navbar-nav {
   width: 84.5%;
   margin: auto;
 }
-/* line 67, ../sass/navbar.scss */
+/* line 68, ../sass/navbar.scss */
 .navbar .navbar-nav > .active > a {
   background-color: #2b80b9;
   color: #FFFFFF;
   transition: background-color 0.3s, color 0.3s;
 }
-/* line 73, ../sass/navbar.scss */
+/* line 74, ../sass/navbar.scss */
 .navbar .navbar-nav > .active > a:hover {
   background-color: #2b80b9;
   color: #FFFFFF;
 }
-/* line 79, ../sass/navbar.scss */
+/* line 80, ../sass/navbar.scss */
 .navbar .navbar-nav > li {
   width: 25%;
   text-align: center;
   margin: auto;
 }
-/* line 84, ../sass/navbar.scss */
+/* line 85, ../sass/navbar.scss */
 .navbar .navbar-nav > li > a {
   transition: background-color 0.3s, color 0.3s;
   color: #2b80b9;
 }
-/* line 88, ../sass/navbar.scss */
+/* line 89, ../sass/navbar.scss */
 .navbar .navbar-nav > li > a:hover {
   background-color: #6eb0dd;
   color: #FFFFFF;
 }
 @media (max-width: 750px) {
-  /* line 79, ../sass/navbar.scss */
+  /* line 80, ../sass/navbar.scss */
   .navbar .navbar-nav > li {
     width: 80%;
   }
 }
-/* line 100, ../sass/navbar.scss */
+/* line 101, ../sass/navbar.scss */
 .navbar > .container-fluid .navbar-brand {
   margin: 0 30px;
 }

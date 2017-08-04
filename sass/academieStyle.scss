@@ -25,13 +25,15 @@ body{
   padding: 0;
 }
 h2{
-  // text-align: left;
   font-size: 30px;
   font-weight: bolder;
   font-family: 'Titillium Web', sans-serif;
   text-transform: uppercase;
   margin-top: 50px;
   color: $blue;
+}
+.img-histoire{
+  height: 55vh!important;
 }
 .text-right{
   font-family: 'Titillium Web', sans-serif;
@@ -49,6 +51,7 @@ h2{
   background-color:$red;
   width: 16%;
   margin-left: 0;
+  border-radius: 40%;
 }
 .line-program{
   padding:2px 0;
@@ -76,16 +79,21 @@ h2{
   }
   p{
     font-family: 'Archivo Narrow', sans-serif;
+    font-weight: bold;
     letter-spacing: 2px;
     line-height: 26px;
     text-align: justify;
     font-size: 20px;
     margin-bottom: 30px;
+    color: lighten($black, 55%);
   }
 }
 .col-marg{
   margin-bottom: 50px;
 }
+
+
+
 
 // Media queries
 @media (max-width: 768px) {

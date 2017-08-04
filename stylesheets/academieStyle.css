@@ -8803,12 +8803,17 @@ h2 {
   color: #59a5d8;
 }
 
-/* line 36, ../sass/academieStyle.scss */
+/* line 35, ../sass/academieStyle.scss */
+.img-histoire {
+  height: 55vh !important;
+}
+
+/* line 38, ../sass/academieStyle.scss */
 .text-right {
   font-family: 'Titillium Web', sans-serif;
 }
 
-/* line 39, ../sass/academieStyle.scss */
+/* line 41, ../sass/academieStyle.scss */
 .school {
   padding: 0;
   height: 100vh;
@@ -8818,15 +8823,16 @@ h2 {
   background-position: center;
 }
 
-/* line 47, ../sass/academieStyle.scss */
+/* line 49, ../sass/academieStyle.scss */
 .line-story {
   padding: 2px 0;
   background-color: #ff0000;
   width: 16%;
   margin-left: 0;
+  border-radius: 40%;
 }
 
-/* line 53, ../sass/academieStyle.scss */
+/* line 56, ../sass/academieStyle.scss */
 .line-program {
   padding: 2px 0;
   background-color: #ff0000;
@@ -8834,7 +8840,7 @@ h2 {
   margin-right: 0;
 }
 
-/* line 59, ../sass/academieStyle.scss */
+/* line 62, ../sass/academieStyle.scss */
 .line-missions {
   padding: 2px 0;
   background-color: #ff0000;
@@ -8842,7 +8848,7 @@ h2 {
   margin-left: 0;
 }
 
-/* line 65, ../sass/academieStyle.scss */
+/* line 68, ../sass/academieStyle.scss */
 .line-team {
   padding: 2px 0;
   background-color: #ff0000;
@@ -8850,42 +8856,44 @@ h2 {
   margin-right: 0;
 }
 
-/* line 71, ../sass/academieStyle.scss */
+/* line 74, ../sass/academieStyle.scss */
 .story {
   margin-top: 50px;
 }
-/* line 73, ../sass/academieStyle.scss */
+/* line 76, ../sass/academieStyle.scss */
 .story img {
   height: auto;
   width: 100%;
 }
-/* line 77, ../sass/academieStyle.scss */
+/* line 80, ../sass/academieStyle.scss */
 .story p {
   font-family: 'Archivo Narrow', sans-serif;
+  font-weight: bold;
   letter-spacing: 2px;
   line-height: 26px;
   text-align: justify;
   font-size: 20px;
   margin-bottom: 30px;
+  color: #8c8c8c;
 }
 
-/* line 86, ../sass/academieStyle.scss */
+/* line 91, ../sass/academieStyle.scss */
 .col-marg {
   margin-bottom: 50px;
 }
 
 @media (max-width: 768px) {
-  /* line 92, ../sass/academieStyle.scss */
+  /* line 100, ../sass/academieStyle.scss */
   .text-right {
     text-align: center;
   }
 
-  /* line 95, ../sass/academieStyle.scss */
+  /* line 103, ../sass/academieStyle.scss */
   h2 {
     text-align: center;
   }
 
-  /* line 98, ../sass/academieStyle.scss */
+  /* line 106, ../sass/academieStyle.scss */
   hr {
     display: none;
   }

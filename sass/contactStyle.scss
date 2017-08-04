@@ -1,9 +1,106 @@
+// Import Bootstrap Compass integration
+@import "bootstrap-compass";
+
+// Import custom Bootstrap variables
+@import "bootstrap-variables";
+
+// Import Bootstrap for Sass
+@import "bootstrap";
+
+@import "navbar";
+
+@import "footer";
+
 $blue: #59a5d8;
-$light-blue: #84d2f6;
-$dark-blue: #386fa4;
+$light-blue: lighten($blue, 5%);
+$dark-blue: darken($blue, 15%);
 
 $white: #FFFFFF;
 $black: #000000;
 
 $red: #ff0000;
-$dark-red: #d60000;
+$dark-red: darken($red, 10%);
+$light-red: lighten($red, 15%);
+
+#content {
+
+
+	h1, #contact-us {
+		font-family: 'Titillium Web', sans-serif;
+		font-weight: 700;
+		text-align: center;
+		color: $light-red;
+	}
+
+	#contact-hr {
+		border: 2px solid $light-blue;
+		border-radius: 15px;
+		width: 35%;
+		margin: 10px auto;
+	}
+
+	.map-container {
+		margin: 50px auto;
+		width: 92%;
+		
+		iframe {
+			margin-top: 30px;
+		}
+	}
+
+	.formudresse {
+		width: 95%;
+		margin: auto;
+
+		#form-sub {
+			display: block;
+			margin: auto;
+			padding: 10 30px;
+		}
+
+		.form-control {
+			width: 75%;
+			margin: auto;
+			text-align: center;
+		}
+
+		form {
+			margin-top: 20px;
+
+			p {
+				display: block;
+				font-family: 'Titillium Web', sans-serif;
+				font-size: 18px;
+				margin-top: 25px;
+				font-weight: 700;
+				color: $light-blue;
+				text-align: center;
+			}
+		}
+		
+		.adresse {
+			font-family: 'Archivo Narrow', sans-serif;
+			font-size: 25px;
+			color: $blue;
+			text-align: center;
+
+
+			.adresse-wrapper {
+				margin: 75px auto;
+				width: 60%;
+				text-align: justify;
+
+				span {
+					color: $light-red;
+					font-family: 'Titillium Web', sans-serif;
+					font-weight: bold;
+				}
+
+				@media (max-width: 768px) {
+					width: 90%;
+					text-align: center;
+				}
+			}
+		}
+	}
+}

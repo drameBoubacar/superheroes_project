@@ -4,17 +4,118 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>contact</title>
+	<link rel="icon" type="image/png" href="images/avengersfavicon.png" />
 	<link rel="stylesheet" href="./stylesheets/contactStyle.css">
+	<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700|Titillium+Web:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-	<nav id="navbar">
-		
+	<!-- ======== START AXEL ======== -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#"><img src="images/LogoAvengers.png" alt=""></a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li><a href="homepage.html">ACCUEIL<span class="sr-only">(current)</span></a></li>
+	        <li><a href="academie.html">ACADEMIE</a></li>
+	        <li><a href="rejoindre.html">REJOINDRE</a></li>
+	        <li  class="active"><a href="contact.html">CONTACTS</a></li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
 	</nav>
+	<!-- ======== END AXEL : navbar ======== -->
+	<!-- ======== START AXEL : contact page ======== -->
+	<section id="content">
+		<div class="map-container">
+			<h1>NOUS RETROUVER</h1>
+			<hr id="contact-hr">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1312.5958179375275!2d2.435603300564701!3d48.85455599816924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDUxJzE2LjQiTiAywrAyNicxMC41IkU!5e0!3m2!1sfr!2sfr!4v1501770778165" width="100%" height="500" frameborder="0" style="border: 0;" allowfullscreen></iframe>
+		</div>
+		<div class="row formudresse">
+			<div class="col-md-6">
+				<h2 id="contact-us">NOUS CONTACTER</h2>
+				<form action="/action_page.php">
+			    	<div class="form-group">
+				      	<p for="email">EMAIL :</p>
+				      	<input type="email" class="form-control" id="email" placeholder="Entre votre mail" name="email">
+				    </div>
+				    <div class="form-group">
+				      	<p for="pwd">MOT DE PASSE :</p>
+				      	<input type="password" class="form-control" id="pwd" placeholder="Entrez votre mot de passe" name="pwd">
+				    </div>
+				    <div class="checkbox">
+				      	<p><input type="checkbox" name="remember">Se souvenir de moi</p>
+				    </div>
+			    	<button type="submit" id="form-sub" class="btn btn-primary">Valider</button>
+			  	</form>
+			</div>
+			<div class="col-md-6 adresse">
+				<div class="adresse-wrapper">
+					<p>Notre <span>ORGANISATION</span> a besoin de <span>VOUS</span>. n'attendez pas et tentez votre chance en nous contactant ou en venant nous voir au 55 rue de Vincennes, Montreuil 93100.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ======== END AXEL : contact page ======== -->
+	<!-- ======== START AXEL : footer ======== -->
+	<footer id="footer" class="container-fluid">
+		<hr class="footer-hr">
+			<div class="row">
+				<div class="col-md-6 lists">
+					<div>	
+						<h3>Services</h3>
+						<ul>
+							<a href="#"><li>Sauvetage</li></a>
+							<a href="#"><li>Exfiltration</li></a>
+							<a href="#"><li>Protection</li></a>
+						</ul>
+					</div>
+					<div>
+						<h3>Sponsors</h3>
+						<ul>
+							<a href="#"><li>Tony Stark</li></a>
+							<a href="#"><li>Batman</li></a>
+							<a href="#"><li>Nick Fury</li></a>
+							<a href="#"><li>Oliver Queen</li></a>
+						</ul>
+					</div>
+					<div>
+						<h3>Partenaires</h3>
+						<ul>
+							<a href="#"><li>Justice league</li></a>
+							<a href="#"><li>Shield</li></a>
+							<a href="#"><li>Defenders</li></a>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="social-media">
+						<a href="#"><i class="fa fa-facebook-square fa-4x"></i></a>
+						<a href="#"><i class="fa fa-twitter-square fa-4x"></i></a>
+						<a href="#"><i class="fa fa-google-plus-square fa-4x"></i></a>
+						<a href="#"><i class="fa fa-instagram fa-4x"></i></a>
+					</div>
+					<p>Copyright © 2017 by team project_superheroes Simplon,<br>
 
-
-
-	<footer id="footer">
-		
+					All rights reserved. No part of this publication may be reproduced,<br> distributed, or transmitted in any form or by any means,</p>
+				</div>
+			</div>
 	</footer>
+	<!-- ======== END AXEL : footer ======== -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="javascripts/bootstrap.min.js"></script>
 </body>
 </html>

@@ -7,8 +7,9 @@
 // Import Bootstrap for Sass
 @import "bootstrap";
 
-//Import navbar
 @import "navbar";
+
+@import "footer";
 
 $blue: #59a5d8;
 $light-blue: lighten($blue, 5%);
@@ -19,7 +20,7 @@ $black: #000000;
 
 $red: #ff0000;
 $dark-red: darken($red, 10%);
-$light-red:lighten(red, 15%);
+$light-red: lighten(red, 15%);
 
 #academie-content{
   h1{

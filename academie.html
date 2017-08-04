@@ -4,14 +4,39 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Academie</title>
-	<link rel="stylesheet" href="stylesheets/academieStyle.css">
-	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700" rel="stylesheet">
+	<link rel="icon" type="image/png" href="images/avengersfavicon.png" />
+	<link rel="stylesheet" href="./stylesheets/academieStyle.css">
+	<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700|Titillium+Web:300,400,700|Josefin+Sans:300,400,700" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-	<nav id="navbar">
+	<!-- ======== START AXEL : navbar ======== -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#"><img src="images/LogoAvengers.png" alt=""></a>
+	    </div>
 
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li><a href="homepage.html">ACCUEIL<span class="sr-only">(current)</span></a></li>
+	        <li class="active"><a href="academie.html">ACADEMIE</a></li>
+	        <li><a href="rejoindre.html">REJOINDRE</a></li>
+	        <li><a href="contact.html">CONTACTS</a></li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
 	</nav>
-	<section id="academie-content">
+	<!-- ======== END AXEL : navbar ======== -->
+		<section id="academie-content">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12 school">
@@ -46,7 +71,6 @@
 					<p>
 						Grâce à un entraînement parfaitement réparti tout au long de la semaine et basé sur des poids élevés et un nombre de répétitions faible.
 						L'entraînement comprend de nombreux <span>exercices</span> ciblés sur différentes parties du corps. Dix kilomètres de course à pied, cent pompes, cent abdos, cent squats, et ce chaque <span>100 fois jour</span>. Il vous restera trés exactement 124 120 heures, soit un peu plus de <span>333 mois d'exercices intensifs</span> pour venir à bout de 1 ans d'entraînement qu'on vous fixera. Mais aussi vous serez mis en condition de combat réelle pour vous confronté a la réalité.Les meileurs d'entre vous auront l'honneur d'affronté des <span>héros</span> de renom tels que <span>thor, hulk</span> mais encore <span>iron man</span>...
-
 					</p>
 				</div>
 				<div class="col-md-6 col-marg">
@@ -84,7 +108,6 @@
 				</div>
 			</div>
 		</div>
-
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-6 col-md-3">
@@ -110,9 +133,53 @@
 			</div>
 		</div>
 	</section>
+  <!-- ======== START AXEL : footer ======== -->
 	<footer id="footer">
+      <hr class="footer-hr">
+			<div class="row">
+				<div class="col-md-6 lists">
+					<div>	
+						<h3>Services</h3>
+						<ul>
+							<a href="#"><li>Sauvetage</li></a>
+							<a href="#"><li>Exfiltration</li></a>
+							<a href="#"><li>Protection</li></a>
+						</ul>
+					</div>
+					<div>
+						<h3>Sponsors</h3>
+						<ul>
+							<a href="#"><li>Tony Stark</li></a>
+							<a href="#"><li>Batman</li></a>
+							<a href="#"><li>Nick Fury</li></a>
+							<a href="#"><li>Oliver Queen</li></a>
+						</ul>
+					</div>
+					<div>
+						<h3>Partenaires</h3>
+						<ul>
+							<a href="#"><li>Justice league</li></a>
+							<a href="#"><li>Shield</li></a>
+							<a href="#"><li>Defenders</li></a>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="social-media">
+						<a href="#"><i class="fa fa-facebook-square fa-4x"></i></a>
+						<a href="#"><i class="fa fa-twitter-square fa-4x"></i></a>
+						<a href="#"><i class="fa fa-google-plus-square fa-4x"></i></a>
+						<a href="#"><i class="fa fa-instagram fa-4x"></i></a>
+					</div>
+					<p>Copyright © 2017 by team project_superheroes Simplon,<br>
 
+					All rights reserved. No part of this publication may be reproduced,<br> distributed, or transmitted in any form or by any means,</p>
+				</div>
+			</div>
 	</footer>
+	<!-- ======== END AXEL : footer ======== -->
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="javascripts/bootstrap.min.js"></script>
 </body>
 </html>

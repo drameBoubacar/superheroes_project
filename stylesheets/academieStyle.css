@@ -8894,7 +8894,7 @@ body {
 #footer .lists div h3 {
   font-size: 21px;
   font-family: 'Titillium Web', sans-serif;
-  color: #ff8080;
+  color: #ff4d4d;
 }
 /* line 39, ../sass/footer.scss */
 #footer .lists div ul {
@@ -8935,7 +8935,7 @@ body {
 }
 /* line 78, ../sass/footer.scss */
 #footer .social-media a:nth-child(3) {
-  color: #ff8080;
+  color: #ff4d4d;
 }
 /* line 82, ../sass/footer.scss */
 #footer .social-media a:nth-child(4) {

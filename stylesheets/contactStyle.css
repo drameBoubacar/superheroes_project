@@ -8894,7 +8894,7 @@ body {
 #footer .lists div h3 {
   font-size: 21px;
   font-family: 'Titillium Web', sans-serif;
-  color: #ff8080;
+  color: #ff4d4d;
 }
 /* line 39, ../sass/footer.scss */
 #footer .lists div ul {
@@ -8935,7 +8935,7 @@ body {
 }
 /* line 78, ../sass/footer.scss */
 #footer .social-media a:nth-child(3) {
-  color: #ff8080;
+  color: #ff4d4d;
 }
 /* line 82, ../sass/footer.scss */
 #footer .social-media a:nth-child(4) {
@@ -8953,7 +8953,7 @@ body {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 700;
   text-align: center;
-  color: #ff8080;
+  color: #ff4d4d;
 }
 /* line 34, ../sass/contactStyle.scss */
 #content #contact-hr {
@@ -9016,7 +9016,7 @@ body {
 }
 /* line 91, ../sass/contactStyle.scss */
 #content .formudresse .adresse .adresse-wrapper span {
-  color: #ff8080;
+  color: #ff4d4d;
   font-family: 'Titillium Web', sans-serif;
   font-weight: bold;
 }

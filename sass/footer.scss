@@ -16,7 +16,7 @@ $black: #000000;
 
 $red: #ff0000;
 $dark-red: darken($red, 10%);
-$light-red: lighten($red, 25%);
+$light-red: lighten($red, 15%);
 
 #footer {
 	margin-top: 10vh;
@@ -33,7 +33,7 @@ $light-red: lighten($red, 25%);
 			h3 {
 				font-size: 21px;
 			    font-family: 'Titillium Web', sans-serif;
-			    color: lighten($red, 25%);
+			    color: $light-red;
 			}
 
 			ul {

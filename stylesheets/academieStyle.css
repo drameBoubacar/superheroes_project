@@ -8788,32 +8788,27 @@ button.close {
     display: none !important;
   }
 }
-/* line 24, ../sass/academieStyle.scss */
+/* line 25, ../sass/academieStyle.scss */
 body {
   padding: 0;
 }
 
-/* line 27, ../sass/academieStyle.scss */
-h2 {
+/* line 29, ../sass/academieStyle.scss */
+h1 {
   font-size: 30px;
   font-weight: bolder;
-  font-family: 'Titillium Web', sans-serif;
   text-transform: uppercase;
   margin-top: 50px;
-  color: #59a5d8;
+  color: #cc0000;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
-/* line 35, ../sass/academieStyle.scss */
+/* line 37, ../sass/academieStyle.scss */
 .img-histoire {
   height: 55vh !important;
 }
 
-/* line 38, ../sass/academieStyle.scss */
-.text-right {
-  font-family: 'Titillium Web', sans-serif;
-}
-
-/* line 41, ../sass/academieStyle.scss */
+/* line 43, ../sass/academieStyle.scss */
 .school {
   padding: 0;
   height: 100vh;
@@ -8823,78 +8818,106 @@ h2 {
   background-position: center;
 }
 
-/* line 49, ../sass/academieStyle.scss */
+/* line 51, ../sass/academieStyle.scss */
 .line-story {
   padding: 2px 0;
-  background-color: #ff0000;
+  background-color: #6eb0dd;
   width: 16%;
   margin-left: 0;
   border-radius: 40%;
 }
 
-/* line 56, ../sass/academieStyle.scss */
+/* line 58, ../sass/academieStyle.scss */
 .line-program {
   padding: 2px 0;
-  background-color: #ff0000;
-  width: 18%;
+  background-color: #6eb0dd;
+  width: 16%;
   margin-right: 0;
+  border-radius: 40%;
 }
 
-/* line 62, ../sass/academieStyle.scss */
+/* line 65, ../sass/academieStyle.scss */
 .line-missions {
   padding: 2px 0;
-  background-color: #ff0000;
+  background-color: #6eb0dd;
   width: 13%;
   margin-left: 0;
+  border-radius: 40%;
 }
 
-/* line 68, ../sass/academieStyle.scss */
+/* line 72, ../sass/academieStyle.scss */
 .line-team {
   padding: 2px 0;
-  background-color: #ff0000;
+  background-color: #6eb0dd;
   width: 30%;
   margin-right: 0;
+  border-radius: 40%;
 }
 
-/* line 74, ../sass/academieStyle.scss */
+/* line 79, ../sass/academieStyle.scss */
 .story {
   margin-top: 50px;
 }
-/* line 76, ../sass/academieStyle.scss */
+/* line 81, ../sass/academieStyle.scss */
 .story img {
   height: auto;
   width: 100%;
 }
-/* line 80, ../sass/academieStyle.scss */
+/* line 85, ../sass/academieStyle.scss */
 .story p {
-  font-family: 'Archivo Narrow', sans-serif;
-  font-weight: bold;
-  letter-spacing: 2px;
-  line-height: 26px;
-  text-align: justify;
   font-size: 20px;
-  margin-bottom: 30px;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  line-height: 25px;
+  text-justify: justify;
+  word-break: break-all;
+  font-family: 'Josefin Sans', sans-serif;
   color: #8c8c8c;
+  color: #2b80b9;
+}
+/* line 95, ../sass/academieStyle.scss */
+.story p span {
+  color: #ff0000;
+}
+/* line 99, ../sass/academieStyle.scss */
+.story .para-mission {
+  margin-top: 20px;
+}
+/* line 102, ../sass/academieStyle.scss */
+.story .para-team {
+  margin-top: 60px;
 }
 
-/* line 91, ../sass/academieStyle.scss */
+/* line 106, ../sass/academieStyle.scss */
 .col-marg {
   margin-bottom: 50px;
 }
 
 @media (max-width: 768px) {
-  /* line 100, ../sass/academieStyle.scss */
+  /* line 115, ../sass/academieStyle.scss */
   .text-right {
     text-align: center;
+    margin: 0;
   }
 
-  /* line 103, ../sass/academieStyle.scss */
-  h2 {
+  /* line 119, ../sass/academieStyle.scss */
+  h1 {
     text-align: center;
+    margin: 30;
   }
 
-  /* line 106, ../sass/academieStyle.scss */
+  /* line 123, ../sass/academieStyle.scss */
+  .story .para-team {
+    margin: 0;
+  }
+
+  /* line 126, ../sass/academieStyle.scss */
   hr {
     display: none;
+  }
+
+  /* line 129, ../sass/academieStyle.scss */
+  .title-mission {
+    margin: 0;
   }
 }

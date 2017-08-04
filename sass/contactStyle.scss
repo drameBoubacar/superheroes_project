@@ -76,5 +76,25 @@ $light-red: lighten($red, 25%);
 				text-align: center;
 			}
 		}
+		
+		.adresse {
+			font-family: 'Archivo Narrow', sans-serif;
+			font-size: 25px;
+			color: $blue;
+			text-align: center;
+
+
+			.adresse-wrapper {
+				margin: 75px auto;
+				width: 60%;
+
+				span {
+					color: $light-red;
+					font-family: 'Titillium Web', sans-serif;
+					font-weight: bold;
+				}
+			}
+		}
+
 	}
 }

@@ -9002,3 +9002,21 @@ body {
   color: #6eb0dd;
   text-align: center;
 }
+/* line 80, ../sass/contactStyle.scss */
+#content .formudresse .adresse {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 25px;
+  color: #59a5d8;
+  text-align: center;
+}
+/* line 87, ../sass/contactStyle.scss */
+#content .formudresse .adresse .adresse-wrapper {
+  margin: 75px auto;
+  width: 60%;
+}
+/* line 91, ../sass/contactStyle.scss */
+#content .formudresse .adresse .adresse-wrapper span {
+  color: #ff8080;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+}

@@ -8947,3 +8947,51 @@ body {
   margin-top: 20px;
   text-align: center;
 }
+
+/* line 28, ../sass/homeStyle.scss */
+#homeContaint #homeBackground {
+  height: 100vh;
+  width: 100%;
+  border-bottom: 1px solid #ff4d4d;
+}
+/* line 33, ../sass/homeStyle.scss */
+#homeContaint #titleNews {
+  font-family: Josefin Sans;
+  color: #ff4d4d;
+  margin: 100px 0px 50px 0px;
+}
+/* line 38, ../sass/homeStyle.scss */
+#homeContaint #titleTweets {
+  font-family: Josefin Sans;
+  color: #ff4d4d;
+  margin: 40px 0px 50px 0px;
+}
+/* line 43, ../sass/homeStyle.scss */
+#homeContaint #breakingNewsBackground {
+  background-image: url(../images/backgroundStars.jpg);
+  background-size: cover;
+}
+/* line 47, ../sass/homeStyle.scss */
+#homeContaint #carouselBreakingNews {
+  border: 1px solid #ff4d4d;
+  margin-bottom: 120px;
+}
+/* line 51, ../sass/homeStyle.scss */
+#homeContaint #sectionTweets {
+  padding-top: 50px;
+  background-image: url(../images/backgroundTexture.png);
+  background-size: cover;
+}
+/* line 56, ../sass/homeStyle.scss */
+#homeContaint .tweet {
+  height: 230px;
+  width: 100%;
+  margin: auto;
+  padding-bottom: 25px;
+}
+/* line 62, ../sass/homeStyle.scss */
+#homeContaint .illustrationTweet {
+  height: 270px;
+  width: 70%;
+  margin: auto;
+}

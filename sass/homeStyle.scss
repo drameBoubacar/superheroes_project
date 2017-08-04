@@ -1,41 +1,57 @@
 // Import Bootstrap Compass integration
 @import "bootstrap-compass";
-
 // Import custom Bootstrap variables
 @import "bootstrap-variables";
-
 // Import Bootstrap for Sass
 @import "bootstrap";
-
+//----------------- VARIABLES -----------------
 $blue: #59a5d8 ;
 $light-blue: lighten($blue, 5%);
 $dark-blue: darken($blue, 15%);
-
 $white: #FFFFFF ;
 $black: #000000 ;
-
 $red: #ff0000 ;
 $dark-red: darken($red, 10%);
 $light-red: lighten($red, 25%);
-
-#footer
-	ul {
-		list-style: none;
-
-	a {
-		text-decoration: none;
+//----------------- END VARIABLES -----------------
+//----------------- HOMEPAGE -----------------
+#homeContaint {
+	#homeBackground {
+		height: 100vh;
+		width: 100%;
+		border-bottom: 1px solid $light-red;
+	}
+	#titleNews {
+		font-family: Josefin Sans;
+		color: $light-red;
+		margin: 100px 0px 50px 0px;
+	}
+	#titleTweets {
+		font-family: Josefin Sans;
+		color: $light-red;
+		margin: 40px 0px 50px 0px;
+	}
+	#breakingNewsBackground {
+		background-image: url(../images/backgroundStars.jpg);
+		background-size: cover;
+	}
+	#carouselBreakingNews {
+		border: 1px solid $light-red;
+		margin-bottom: 120px;
+	}
+	#sectionTweets {
+		padding-top: 50px;
+		background-image: url(../images/backgroundTexture.png);
+		background-size: cover;
+	}
+	.tweet {
+		height: 190px;
+		margin: auto;
+		padding-bottom: 25px;
+	}
+	.illustrationTweet {
+		height: 300px;
+		margin: auto;
 	}
 }
-
-#carousel-example-generic img {
-	height: 90vh;
-	width: 100%;
-}
-
-
-
-#hr {
-	margin-top: 70px;
-	width: 80%;
-	border: 1px solid $light-red;
-}
+//----------------- END HOMEPAGE -----------------

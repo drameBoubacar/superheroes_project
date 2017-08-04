@@ -8788,26 +8788,48 @@ button.close {
     display: none !important;
   }
 }
-/* line 21, ../sass/homeStyle.scss */
-#footer
-ul {
-  list-style: none;
-}
-/* line 25, ../sass/homeStyle.scss */
-#footer
-ul a {
-  text-decoration: none;
-}
-
-/* line 30, ../sass/homeStyle.scss */
-#carousel-example-generic img {
-  height: 90vh;
+/* line 19, ../sass/homeStyle.scss */
+#homeContaint #homeBackground {
+  height: 100vh;
   width: 100%;
+  border-bottom: 1px solid #ff8080;
 }
-
-/* line 37, ../sass/homeStyle.scss */
-#hr {
-  margin-top: 70px;
-  width: 80%;
+/* line 24, ../sass/homeStyle.scss */
+#homeContaint #titleNews {
+  font-family: Josefin Sans;
+  color: #ff8080;
+  margin: 100px 0px 50px 0px;
+}
+/* line 29, ../sass/homeStyle.scss */
+#homeContaint #titleTweets {
+  font-family: Josefin Sans;
+  color: #ff8080;
+  margin: 40px 0px 50px 0px;
+}
+/* line 34, ../sass/homeStyle.scss */
+#homeContaint #breakingNewsBackground {
+  background-image: url(../images/backgroundStars.jpg);
+  background-size: cover;
+}
+/* line 38, ../sass/homeStyle.scss */
+#homeContaint #carouselBreakingNews {
   border: 1px solid #ff8080;
+  margin-bottom: 120px;
+}
+/* line 42, ../sass/homeStyle.scss */
+#homeContaint #sectionTweets {
+  padding-top: 50px;
+  background-image: url(../images/backgroundTexture.png);
+  background-size: cover;
+}
+/* line 47, ../sass/homeStyle.scss */
+#homeContaint .tweet {
+  height: 190px;
+  margin: auto;
+  padding-bottom: 25px;
+}
+/* line 52, ../sass/homeStyle.scss */
+#homeContaint .illustrationTweet {
+  height: 300px;
+  margin: auto;
 }

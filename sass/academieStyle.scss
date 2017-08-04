@@ -21,112 +21,106 @@ $red: #ff0000;
 $dark-red: darken($red, 10%);
 $light-red:lighten(red, 15%);
 
-
-body{
-  padding: 0;
-
-}
-h1{
-  font-size: 30px;
-  font-weight: bolder;
-  text-transform: uppercase;
-  margin-top: 50px;
-  color: $dark-red;
-  font-family: 'Josefin Sans', sans-serif;
-}
-.img-histoire{
-  height: 55vh!important;
-}
-.text-right{
-
-}
-.school{
-  padding: 0;
-  height: 100vh;
-  width: 100%;
-  background-image: url('../images/school.jpg');
-  background-size: cover;
-  background-position: center;
-}
-.line-story{
-  padding:2px 0;
-  background-color:$light-blue;
-  width: 16%;
-  margin-left: 0;
-  border-radius: 40%;
-}
-.line-program{
-  padding:2px 0;
-  background-color:$light-blue;
-  width: 16%;
-  margin-right: 0;
-  border-radius: 40%;
-}
-.line-missions{
-  padding:2px 0;
-  background-color:$light-blue;
-  width: 13%;
-  margin-left: 0;
-  border-radius: 40%;
-}
-.line-team{
-  padding:2px 0;
-  background-color:$light-blue;
-  width: 30%;
-  margin-right: 0;
-  border-radius: 40%;
-}
-.story{
-  margin-top: 50px;
-  img{
-    height: auto;
-    width: 100%;
-  }
-  p{
-    font-size: 20px;
-    font-weight: lighter;
-    letter-spacing: 3px;
-    line-height: 25px;
-    text-justify:justify;
-    word-break: break-all;
+#academie-content{
+  h1{
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 50px;
+    color: $dark-red;
     font-family: 'Josefin Sans', sans-serif;
-    color: lighten($black, 55%);
-    color: $dark-blue;
-    span{
-      color: $red;
+  }
+  .img-histoire{
+    height: 55vh!important;
+  }
+  .text-right{
+
+  }
+  .school{
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/school.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .line-story{
+    padding:2px 0;
+    background-color:$light-blue;
+    width: 16%;
+    margin-left: 0;
+    border-radius: 40%;
+  }
+  .line-program{
+    padding:2px 0;
+    background-color:$light-blue;
+    width: 16%;
+    margin-right: 0;
+    border-radius: 40%;
+  }
+  .line-missions{
+    padding:2px 0;
+    background-color:$light-blue;
+    width: 13%;
+    margin-left: 0;
+    border-radius: 40%;
+  }
+  .line-team{
+    padding:2px 0;
+    background-color:$light-blue;
+    width: 30%;
+    margin-right: 0;
+    border-radius: 40%;
+  }
+  .story{
+    margin-top: 50px;
+    img{
+      height: auto;
+      width: 100%;
+    }
+    p{
+      font-size: 20px;
+      font-weight: lighter;
+      letter-spacing: 3px;
+      line-height: 25px;
+      text-justify:justify;
+      word-break: break-all;
+      font-family: 'Josefin Sans', sans-serif;
+      color: lighten($black, 55%);
+      color: $dark-blue;
+      span{
+        color: $red;
+      }
+    }
+    .para-mission{
+      margin-top: 20px;
+    }
+    .para-team{
+      margin-top: 60px;
     }
   }
-  .para-mission{
-    margin-top: 20px;
+  .col-marg{
+    margin-bottom: 50px;
   }
-  .para-team{
-    margin-top: 60px;
-  }
-}
-.col-marg{
-  margin-bottom: 50px;
-}
 
-
-
-
-// Media queries
-@media (max-width: 768px) {
-  .text-right {
-    text-align: center;
-    margin: 0;
-  }
-  h1{
-    text-align: center;
-    margin: 30;
-  }
-  .story .para-team{
-    margin:0;
-  }
-  hr{
-    display: none;
-  }
-  .title-mission{
-    margin: 0;
+  // Media queries
+  @media (max-width: 768px) {
+    .text-right {
+      text-align: center;
+      margin: 0;
+    }
+    h1{
+      text-align: center;
+      margin: 30;
+    }
+    .story .para-team{
+      margin:0;
+    }
+    hr{
+      display: none;
+    }
+    .title-mission{
+      margin: 0;
+    }
   }
 }

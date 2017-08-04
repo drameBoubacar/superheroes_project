@@ -8789,12 +8789,7 @@ button.close {
   }
 }
 /* line 25, ../sass/academieStyle.scss */
-body {
-  padding: 0;
-}
-
-/* line 29, ../sass/academieStyle.scss */
-h1 {
+#academie-content h1 {
   font-size: 30px;
   font-weight: bolder;
   text-transform: uppercase;
@@ -8802,14 +8797,12 @@ h1 {
   color: #cc0000;
   font-family: 'Josefin Sans', sans-serif;
 }
-
-/* line 37, ../sass/academieStyle.scss */
-.img-histoire {
+/* line 33, ../sass/academieStyle.scss */
+#academie-content .img-histoire {
   height: 55vh !important;
 }
-
-/* line 43, ../sass/academieStyle.scss */
-.school {
+/* line 39, ../sass/academieStyle.scss */
+#academie-content .school {
   padding: 0;
   height: 100vh;
   width: 100%;
@@ -8817,54 +8810,49 @@ h1 {
   background-size: cover;
   background-position: center;
 }
-
-/* line 51, ../sass/academieStyle.scss */
-.line-story {
+/* line 47, ../sass/academieStyle.scss */
+#academie-content .line-story {
   padding: 2px 0;
   background-color: #6eb0dd;
   width: 16%;
   margin-left: 0;
   border-radius: 40%;
 }
-
-/* line 58, ../sass/academieStyle.scss */
-.line-program {
+/* line 54, ../sass/academieStyle.scss */
+#academie-content .line-program {
   padding: 2px 0;
   background-color: #6eb0dd;
   width: 16%;
   margin-right: 0;
   border-radius: 40%;
 }
-
-/* line 65, ../sass/academieStyle.scss */
-.line-missions {
+/* line 61, ../sass/academieStyle.scss */
+#academie-content .line-missions {
   padding: 2px 0;
   background-color: #6eb0dd;
   width: 13%;
   margin-left: 0;
   border-radius: 40%;
 }
-
-/* line 72, ../sass/academieStyle.scss */
-.line-team {
+/* line 68, ../sass/academieStyle.scss */
+#academie-content .line-team {
   padding: 2px 0;
   background-color: #6eb0dd;
   width: 30%;
   margin-right: 0;
   border-radius: 40%;
 }
-
-/* line 79, ../sass/academieStyle.scss */
-.story {
+/* line 75, ../sass/academieStyle.scss */
+#academie-content .story {
   margin-top: 50px;
 }
-/* line 81, ../sass/academieStyle.scss */
-.story img {
+/* line 77, ../sass/academieStyle.scss */
+#academie-content .story img {
   height: auto;
   width: 100%;
 }
-/* line 85, ../sass/academieStyle.scss */
-.story p {
+/* line 81, ../sass/academieStyle.scss */
+#academie-content .story p {
   font-size: 20px;
   font-weight: lighter;
   letter-spacing: 3px;
@@ -8875,49 +8863,43 @@ h1 {
   color: #8c8c8c;
   color: #2b80b9;
 }
-/* line 95, ../sass/academieStyle.scss */
-.story p span {
+/* line 91, ../sass/academieStyle.scss */
+#academie-content .story p span {
   color: #ff0000;
 }
-/* line 99, ../sass/academieStyle.scss */
-.story .para-mission {
+/* line 95, ../sass/academieStyle.scss */
+#academie-content .story .para-mission {
   margin-top: 20px;
 }
-/* line 102, ../sass/academieStyle.scss */
-.story .para-team {
+/* line 98, ../sass/academieStyle.scss */
+#academie-content .story .para-team {
   margin-top: 60px;
 }
-
-/* line 106, ../sass/academieStyle.scss */
-.col-marg {
+/* line 102, ../sass/academieStyle.scss */
+#academie-content .col-marg {
   margin-bottom: 50px;
 }
-
 @media (max-width: 768px) {
-  /* line 115, ../sass/academieStyle.scss */
-  .text-right {
+  /* line 108, ../sass/academieStyle.scss */
+  #academie-content .text-right {
     text-align: center;
     margin: 0;
   }
-
-  /* line 119, ../sass/academieStyle.scss */
-  h1 {
+  /* line 112, ../sass/academieStyle.scss */
+  #academie-content h1 {
     text-align: center;
     margin: 30;
   }
-
-  /* line 123, ../sass/academieStyle.scss */
-  .story .para-team {
+  /* line 116, ../sass/academieStyle.scss */
+  #academie-content .story .para-team {
     margin: 0;
   }
-
-  /* line 126, ../sass/academieStyle.scss */
-  hr {
+  /* line 119, ../sass/academieStyle.scss */
+  #academie-content hr {
     display: none;
   }
-
-  /* line 129, ../sass/academieStyle.scss */
-  .title-mission {
+  /* line 122, ../sass/academieStyle.scss */
+  #academie-content .title-mission {
     margin: 0;
   }
 }

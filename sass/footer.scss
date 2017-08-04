@@ -19,9 +19,16 @@ $dark-red: darken($red, 10%);
 $light-red: lighten($red, 15%);
 
 #footer {
-	margin-top: 10vh;
+	margin-top: 5vh;
 	margin-bottom: 5vh;
-	font-family: 'Archivo Narrow', sans-serif;
+	font-family: 'Jasmin Sans', sans-serif;
+
+	.footer-hr {
+		border: 1px solid $light-red;
+		border-radius: 15px;
+		width: 90%;
+		margin: 40px auto;
+	}
 
 	.lists {
 		display: flex;

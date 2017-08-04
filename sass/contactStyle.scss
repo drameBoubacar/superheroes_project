@@ -24,6 +24,7 @@ $light-red: lighten($red, 15%);
 
 #content {
 
+
 	h1, #contact-us {
 		font-family: 'Titillium Web', sans-serif;
 		font-weight: 700;
@@ -87,14 +88,19 @@ $light-red: lighten($red, 15%);
 			.adresse-wrapper {
 				margin: 75px auto;
 				width: 60%;
+				text-align: justify;
 
 				span {
 					color: $light-red;
 					font-family: 'Titillium Web', sans-serif;
 					font-weight: bold;
 				}
+
+				@media (max-width: 768px) {
+					width: 90%;
+					text-align: center;
+				}
 			}
 		}
-
 	}
 }

@@ -8877,122 +8877,129 @@ body {
 
 /* line 21, ../sass/footer.scss */
 #footer {
-  margin-top: 10vh;
+  margin-top: 5vh;
   margin-bottom: 5vh;
-  font-family: 'Archivo Narrow', sans-serif;
+  font-family: 'Jasmin Sans', sans-serif;
 }
 /* line 26, ../sass/footer.scss */
+#footer .footer-hr {
+  border: 1px solid #ff4d4d;
+  border-radius: 15px;
+  width: 90%;
+  margin: 40px auto;
+}
+/* line 33, ../sass/footer.scss */
 #footer .lists {
   display: flex;
   justify-content: space-around;
 }
-/* line 30, ../sass/footer.scss */
+/* line 37, ../sass/footer.scss */
 #footer .lists div {
   margin-top: 20px;
 }
-/* line 33, ../sass/footer.scss */
+/* line 40, ../sass/footer.scss */
 #footer .lists div h3 {
   font-size: 21px;
   font-family: 'Titillium Web', sans-serif;
   color: #ff4d4d;
 }
-/* line 39, ../sass/footer.scss */
+/* line 46, ../sass/footer.scss */
 #footer .lists div ul {
   margin-top: 10px;
   padding-left: 0px;
 }
-/* line 44, ../sass/footer.scss */
+/* line 51, ../sass/footer.scss */
 #footer .lists div li {
   list-style-type: none;
 }
-/* line 48, ../sass/footer.scss */
+/* line 55, ../sass/footer.scss */
 #footer .lists div a {
   text-decoration: none;
   font-size: 16px;
 }
-/* line 52, ../sass/footer.scss */
+/* line 59, ../sass/footer.scss */
 #footer .lists div a:hover {
   color: #59a5d8;
 }
-/* line 60, ../sass/footer.scss */
+/* line 67, ../sass/footer.scss */
 #footer .social-media {
   margin: 25px 0;
   display: flex;
   justify-content: space-around;
 }
-/* line 66, ../sass/footer.scss */
+/* line 73, ../sass/footer.scss */
 #footer .social-media a {
   color: #000000;
   text-decoration: none;
 }
-/* line 70, ../sass/footer.scss */
+/* line 77, ../sass/footer.scss */
 #footer .social-media a:nth-child(1) {
   color: #2b80b9;
 }
-/* line 74, ../sass/footer.scss */
+/* line 81, ../sass/footer.scss */
 #footer .social-media a:nth-child(2) {
   color: #59a5d8;
 }
-/* line 78, ../sass/footer.scss */
+/* line 85, ../sass/footer.scss */
 #footer .social-media a:nth-child(3) {
   color: #ff4d4d;
 }
-/* line 82, ../sass/footer.scss */
+/* line 89, ../sass/footer.scss */
 #footer .social-media a:nth-child(4) {
   color: #cc0000;
 }
-/* line 88, ../sass/footer.scss */
+/* line 95, ../sass/footer.scss */
 #footer p {
   font-size: 15px;
   margin-top: 20px;
   text-align: center;
 }
 
-/* line 27, ../sass/contactStyle.scss */
+/* line 28, ../sass/contactStyle.scss */
 #content h1, #content #contact-us {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 700;
   text-align: center;
   color: #ff4d4d;
 }
-/* line 34, ../sass/contactStyle.scss */
+/* line 35, ../sass/contactStyle.scss */
 #content #contact-hr {
   border: 2px solid #6eb0dd;
   border-radius: 15px;
   width: 35%;
   margin: 10px auto;
 }
-/* line 41, ../sass/contactStyle.scss */
+/* line 42, ../sass/contactStyle.scss */
 #content .map-container {
   margin: 50px auto;
   width: 92%;
 }
-/* line 45, ../sass/contactStyle.scss */
+/* line 46, ../sass/contactStyle.scss */
 #content .map-container iframe {
   margin-top: 30px;
 }
-/* line 50, ../sass/contactStyle.scss */
+/* line 51, ../sass/contactStyle.scss */
 #content .formudresse {
   width: 95%;
   margin: auto;
 }
-/* line 54, ../sass/contactStyle.scss */
+/* line 55, ../sass/contactStyle.scss */
 #content .formudresse #form-sub {
   display: block;
   margin: auto;
   padding: 10 30px;
 }
-/* line 60, ../sass/contactStyle.scss */
+/* line 61, ../sass/contactStyle.scss */
 #content .formudresse .form-control {
   width: 75%;
   margin: auto;
   text-align: center;
 }
-/* line 66, ../sass/contactStyle.scss */
+/* line 67, ../sass/contactStyle.scss */
 #content .formudresse form {
   margin-top: 20px;
 }
-/* line 69, ../sass/contactStyle.scss */
+/* line 70, ../sass/contactStyle.scss */
 #content .formudresse form p {
   display: block;
   font-family: 'Titillium Web', sans-serif;
@@ -9002,21 +9009,29 @@ body {
   color: #6eb0dd;
   text-align: center;
 }
-/* line 80, ../sass/contactStyle.scss */
+/* line 81, ../sass/contactStyle.scss */
 #content .formudresse .adresse {
   font-family: 'Archivo Narrow', sans-serif;
   font-size: 25px;
   color: #59a5d8;
   text-align: center;
 }
-/* line 87, ../sass/contactStyle.scss */
+/* line 88, ../sass/contactStyle.scss */
 #content .formudresse .adresse .adresse-wrapper {
   margin: 75px auto;
   width: 60%;
+  text-align: justify;
 }
-/* line 91, ../sass/contactStyle.scss */
+/* line 93, ../sass/contactStyle.scss */
 #content .formudresse .adresse .adresse-wrapper span {
   color: #ff4d4d;
   font-family: 'Titillium Web', sans-serif;
   font-weight: bold;
+}
+@media (max-width: 768px) {
+  /* line 88, ../sass/contactStyle.scss */
+  #content .formudresse .adresse .adresse-wrapper {
+    width: 90%;
+    text-align: center;
+  }
 }
